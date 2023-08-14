@@ -134,11 +134,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",  "&none"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&none",         "&none",     "&none",     "&none",             "&none",        "&none",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",                                                              "&none",         "&none",     "&none",     "&none",             "&none",        "&none",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans",  "&none", "&kp AMPERSAND", "&kp COMMA",  "&kp SEMI", "&kp DOUBLE_QUOTES", "&kp QUESTION",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                             "&none", "&kp MINUS", "&kp SLASH",         "&kp CARET",    "&kp TILDE",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans",    "&trans",            "&trans",       "&trans",  "&none"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",

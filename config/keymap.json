@@ -13,7 +13,7 @@
     "Layer #7",
     "Layer #8",
     "Layer #9",
-    "Layer #10",
+    "仮名",
     "Layer #11",
     "Layer #12",
     "Layer #13",
@@ -98,11 +98,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",           "&trans", "&trans", "&trans", "&trans",       "&trans",           "&trans",                                                             "&trans",       "&trans",           "&trans", "&trans", "&trans",       "&trans", "&trans",
+       "&trans",           "&trans", "&trans", "&trans",  "&none",       "&trans",           "&trans",                                                             "&trans", "&kp NUMBER_4",            "&kp H",  "&kp R",  "&kp Z", "&kp NUMBER_8", "&trans",
+       "&trans",     "&kp NUMBER_7",  "&kp Q",  "&kp X",  "&kp T", "&kp NUMBER_3",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp NUMBER_5", "&kp SINGLE_QUOTE",  "&kp P",  "&kp W",        "&none", "&trans",
+       "&trans", "&kp LEFT_BRACKET",  "&kp A",  "&kp D",  "&kp G",        "&kp E",                               "&trans",                     "&trans",                     "&kp NUMBER_6",            "&kp B",  "&kp C",  "&kp S", "&kp NUMBER_9", "&trans",
+       "&trans",           "&trans", "&trans", "&trans", "&trans",                           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans", "&trans", "&trans",       "&trans", "&trans"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",

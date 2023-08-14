@@ -60,10 +60,10 @@
 
         layer_SRTP {
             bindings = <
-    &to 0           &none          &none          &none      &none   &none                &none                                                             &none   &none      &none         &none          &none            &none          &to 0
+    &none           &none          &none          &none      &none   &none                &none                                                             &none   &none      &none         &none          &none            &none          &none
  &sk LGUI  &sk LEFT_SHIFT  &sk RIGHT_ALT   &sk LEFT_ALT  &sk LCTRL   &none                &none                                                             &none   &none  &kt RCTRL  &kt LEFT_ALT  &kt RIGHT_ALT  &kt RIGHT_SHIFT  &kt RIGHT_GUI
     &none           &kp I          &kp O          &kp A      &kp E   &kp U              &tog 22  &mo 20  &kp LGUI                  &kp RIGHT_GUI  &mo 20  &tog 24   &kp C      &kp S         &kp R          &kp T            &kp P          &none
-    &none           &kp Y        &kp TAB       &kp BSPC  &kp ENTER   &kp W                                  &none                          &none                    &kp Q      &kp N         &kp H          &kp V            &kp G          &none
+    &none           &kp Y        &kp TAB       &kp BSPC  &kp ENTER   &kp W                                  &to 0                          &to 0                    &kp Q      &kp N         &kp H          &kp V            &kp G          &none
     &none        &kp HOME    &kp PAGE_UP  &kp PAGE_DOWN    &kp END                    &kp SPACE  &mo 18     &none                          &none  &mo 16    &mo 3           &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT          &none
             >;
         };
@@ -140,10 +140,10 @@
 
         layer_Kana_1 {
             bindings = <
-   &to 0             &none                 &none            &none    &none         &none             &none                                                      &none         &none             &none     &none   &none           &none          &to 0
+   &none             &none                 &none            &none    &none         &none             &none                                                      &none         &none             &none     &none   &none           &none          &none
    &none      &kp INT_KANA  &kp NON_US_BACKSLASH  &kp NON_US_HASH    &kp Y   &kp INT_YEN             &none                                                      &none  &kp NUMBER_4             &kp H     &kp R   &kp Z    &kp NUMBER_8          &none
  &kp ESC      &kp NUMBER_7                 &kp Q            &kp X    &kp T  &kp NUMBER_3             &none  &mo 20   &none                   &none  &mo 20      &none  &kp NUMBER_5  &kp SINGLE_QUOTE     &kp P   &kp W  &kp INT_HENKAN      &kp ENTER
- &kp TAB  &kp LEFT_BRACKET                 &kp A            &kp D    &kp G         &kp E                             &none                   &none                     &kp NUMBER_6             &kp B     &kp C   &kp S    &kp NUMBER_9  &kp BACKSPACE
+ &kp TAB  &kp LEFT_BRACKET                 &kp A            &kp D    &kp G         &kp E                             &to 0                   &to 0                     &kp NUMBER_6             &kp B     &kp C   &kp S    &kp NUMBER_9  &kp BACKSPACE
    &none          &kp HOME           &kp PAGE_UP    &kp PAGE_DOWN  &kp END                          &mo 11  &mo 18   &none                   &none  &mo 16  &kp SPACE                        &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT          &none
             >;
         };
@@ -203,7 +203,7 @@
   &none            &none             &none          &none       &none   &none             &none                                                   &none          &none      &none      &none              &none         &none   &none
   &none            &none             &none          &none       &none   &none             &none                                                   &none          &none      &none      &none              &none         &none   &none
   &none  &kp EXCLAMATION  &kp SINGLE_QUOTE      &kp COLON  &kp PERIOD  &kp AT             &none   &none   &none                   &none   &none   &none  &kp AMPERSAND  &kp COMMA   &kp SEMI  &kp DOUBLE_QUOTES  &kp QUESTION   &none
-  &none         &kp PIPE         &kp GRAVE  &kp BACKSLASH   &kp UNDER   &none                             &none                   &none                          &none  &kp MINUS  &kp SLASH          &kp CARET     &kp TILDE   &none
+  &none         &kp PIPE         &kp GRAVE  &kp BACKSLASH   &kp UNDER   &none                             &to 0                   &to 0                          &none  &kp MINUS  &kp SLASH          &kp CARET     &kp TILDE   &none
   &none            &none             &none          &none       &none                    &trans   &none  &mo 17                  &mo 17   &none   &none                     &none      &none              &none         &none   &none
             >;
         };
@@ -223,7 +223,7 @@
   &none         &none         &none         &none         &none         &none            &none                                                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none            &none                                                   &none         &none         &none         &none         &none         &none   &none
   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none   &none   &none                   &none   &none   &none  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
-  &none   &kp PERCENT    &kp DOLLAR      &kp HASH     &kp EQUAL         &none                            &none                   &none                         &none      &kp PLUS     &kp MINUS  &kp ASTERISK     &kp SLASH   &none
+  &none   &kp PERCENT    &kp DOLLAR      &kp HASH     &kp EQUAL         &none                            &to 0                   &to 0                         &none      &kp PLUS     &kp MINUS  &kp ASTERISK     &kp SLASH   &none
   &none         &none         &none         &none         &none                          &none  &trans  &mo 19                  &mo 19   &none   &none                       &none         &none         &none         &none   &none
             >;
         };
@@ -243,7 +243,7 @@
   &none           &none             &none     &none          &none   &none            &none                                                   &none   &none             &none                  &none              &none     &none   &none
   &none           &none             &none     &none          &none   &none            &none                                                   &none   &none             &none                  &none              &none     &none   &none
   &none  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LPAR  &kp LESS_THAN   &none            &none   &none   &none                   &none   &none   &none   &none  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RBRC   &none
-  &none           &none             &none     &none          &none   &none                            &none                   &none                   &none             &none                  &none              &none     &none   &none
+  &none           &none             &none     &none          &none   &none                            &to 0                   &to 0                   &none             &none                  &none              &none     &none   &none
   &none           &none             &none     &none          &none                    &none   &none  &mo 21                  &mo 21   &none   &none                     &none                  &none              &none     &none   &none
             >;
         };
@@ -263,7 +263,7 @@
   &none   &none    &none    &none    &none   &none            &none                                                   &none   &none    &none    &none    &none    &none   &none
   &none  &kp F1   &kp F2   &kp F3   &kp F4   &none            &none                                                   &none   &none  &kp F13  &kp F14  &kp F15  &kp F16   &none
   &none  &kp F5   &kp F6   &kp F7   &kp F8   &none            &none   &none   &none                   &none   &none   &none   &none  &kp F17  &kp F18  &kp F19  &kp F20   &none
-  &none  &kp F9  &kp F10  &kp F11  &kp F12   &none                            &none                   &none                   &none  &kp F21  &kp F22  &kp F23  &kp F24   &none
+  &none  &kp F9  &kp F10  &kp F11  &kp F12   &none                            &to 0                   &to 0                   &none  &kp F21  &kp F22  &kp F23  &kp F24   &none
   &none   &none    &none    &none    &none                    &none   &none  &mo 23                  &mo 23   &none   &none            &none    &none    &none    &none   &none
             >;
         };
@@ -280,11 +280,11 @@
 
         layer_AppCtrl {
             bindings = <
- &trans       &trans                 &trans      &trans      &trans       &trans            &trans                                                  &trans      &trans         &trans             &trans              &trans              &trans  &trans
- &trans  &kp K_SLEEP                 &trans      &trans      &trans    &kp K_CUT            &trans                                                  &trans      &trans         &trans             &trans              &trans              &trans  &trans
-  &none       &trans              &kp K_WWW  &kp K_FIND  &kp K_UNDO   &kp K_COPY            &trans   &none   &none                  &trans  &trans  &trans      &trans  &kp C_AC_BACK    &kp C_AC_SEARCH  &kp C_AC_FAVORITES    &kp C_AC_FORWARD  &trans
-  &none       &trans  &kp C_AL_FILE_BROWSER  &kp K_HELP  &kp K_REDO  &kp K_PASTE                             &none                  &trans                  &kp C_MUTE       &kp C_RW  &kp C_VOLUME_DOWN        &kp C_VOL_UP  &kp C_FAST_FORWARD  &trans
-  &none        &none                  &none       &none       &none                          &none   &none   &none                  &trans  &trans  &trans                 &kp C_PREV   &kp C_PLAY_PAUSE          &kp C_STOP          &kp C_NEXT  &trans
+  &none        &none                  &none       &none       &none        &none            &none                                                   &none       &none          &none              &none               &none               &none   &none
+  &none  &kp K_SLEEP                  &none       &none       &none    &kp K_CUT            &none                                                   &none       &none          &none              &none               &none               &none   &none
+  &none        &none              &kp K_WWW  &kp K_FIND  &kp K_UNDO   &kp K_COPY            &none   &none   &none                   &none   &none   &none       &none  &kp C_AC_BACK    &kp C_AC_SEARCH  &kp C_AC_FAVORITES    &kp C_AC_FORWARD   &none
+  &none        &none  &kp C_AL_FILE_BROWSER  &kp K_HELP  &kp K_REDO  &kp K_PASTE                            &to 0                   &to 0                  &kp C_MUTE       &kp C_RW  &kp C_VOLUME_DOWN        &kp C_VOL_UP  &kp C_FAST_FORWARD   &none
+  &none        &none                  &none       &none       &none                         &none   &none  &mo 25                  &mo 25   &none   &none                 &kp C_PREV   &kp C_PLAY_PAUSE          &kp C_STOP          &kp C_NEXT   &none
             >;
         };
 
@@ -350,11 +350,11 @@
 
         layer_System {
             bindings = <
-  &to 0         &none         &none         &none         &none         &none                 &none                                                                   &none   &none   &none       &none       &none   &none   &to 0
-  &none         &none         &none         &none         &none         &none                 &none                                                            &out OUT_TOG   &none   &none       &none       &none   &none   &none
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &bt BT_CLR   &none  &bootloader                  &bootloader   &none    &bl BL_TOG   &none   &none       &none       &none   &none   &none
-  &none         &none         &none         &none  &out OUT_BLE         &none                                      &none                        &none                         &none   &none       &none       &none   &none   &none
-  &none         &none    &bt BT_PRV    &bt BT_NXT         &none                               &none   &none        &none                        &none   &none         &none           &none  &bl BL_DEC  &bl BL_INC   &none   &none
+  &none         &none         &none         &none         &none         &none            &bootloader                                                   &bootloader   &none   &none       &none       &none   &none   &none
+  &none         &none         &none         &none         &none         &none                  &none                                                  &out OUT_TOG   &none   &none       &none       &none   &none   &none
+  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &bt BT_CLR   &none   &none                   &none   &none    &bl BL_TOG   &none   &none       &none       &none   &none   &none
+  &none         &none         &none         &none  &out OUT_BLE         &none                                  &to 0                   &to 0                         &none   &none       &none       &none   &none   &none
+  &none         &none    &bt BT_PRV    &bt BT_NXT         &none                                &none   &none   &none                   &none   &none         &none           &none  &bl BL_DEC  &bl BL_INC   &none   &none
             >;
         };
 

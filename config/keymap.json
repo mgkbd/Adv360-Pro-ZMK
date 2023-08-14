@@ -5,8 +5,8 @@
   "layer_names": [
     "base",
     "swap",
-    "fn",
-    "mod",
+    "srtp",
+    "zldb",
     "Layer #4",
     "Layer #5",
     "Layer #6",
@@ -50,17 +50,17 @@
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",  "&kp B",                                    "&kp HOME",                     "&kp PG_UP",                            "&kp N",  "&kp KP_N1",    "&kp KP_N2",     "&kp KP_N3",    "&kp KP_ENTER", "&kp RSHFT",
           "&trans", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&kp BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp KP_N0",               "&kp UP",     "&kp DOWN",    "&kp KP_DOT",        "&kp RBKT",    "&trans"
     ], [
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",                                                              "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
-        "&none", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",                                                              "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
-        "&none",  "&kp I",  "&kp O",  "&kp A",  "&kp E",  "&kp U",            "&none", "&trans", "&trans",                     "&trans", "&trans",  "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
-        "&none",  "&kp Y",  "&none",  "&none",  "&none",  "&kp W",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans",  "&trans",  "&trans",  "&trans"
+        "&none",  "&none",   "&none",    "&none",     "&none",  "&none",               "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",  "&trans",   "&trans",    "&trans", "&trans",               "&none",                                                              "&none", "&trans", "&trans", "&trans", "&trans", "&trans",  "&none",
+        "&none",  "&kp I",   "&kp O",    "&kp A",     "&kp E",  "&kp U",               "&none", "&trans", "&trans",                     "&trans", "&trans",  "&none",  "&kp C",  "&kp S",  "&kp R",  "&kp T",  "&kp P",  "&none",
+        "&none",  "&kp Y", "&kp TAB", "&kp BSPC", "&kp ENTER",  "&kp W",                                  "&trans",                     "&trans",                      "&kp Q",  "&kp N",  "&kp H",  "&kp V",  "&kp G",  "&none",
+       "&trans", "&trans",  "&trans",   "&trans",    "&trans",                     "&kp SPACE", "&trans", "&trans",                     "&trans", "&trans",  "&mo 3",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-       "&trans",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-       "&trans",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-       "&trans",        "&none",        "&none",        "&none",        "&none",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
+        "&none",  "&none",  "&none",   "&none",      "&none",  "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",  "&none",   "&none",      "&none",  "&none",            "&none",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none", "&trans", "&trans",  "&trans",     "&trans", "&trans",            "&none",  "&none",  "&none",                     "&trans", "&trans",  "&none",  "&kp X",  "&kp Z",  "&kp L",  "&kp D",  "&kp B",  "&none",
+        "&none", "&trans", "&trans", "&kp DEL", "&kp ESCAPE", "&trans",                                "&none",                      "&none",                      "&none",  "&kp M",  "&kp J",  "&kp F",  "&kp K",  "&none",
+        "&none",  "&none",  "&none",   "&none",      "&none",                     "&trans", "&trans",  "&none",                      "&none", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",  "&none"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",

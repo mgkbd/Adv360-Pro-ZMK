@@ -47,7 +47,7 @@
             >;
         };
 
-        layer_swap {
+        layer_jklnswap {
             bindings = <
      &none           &none          &none     &none     &none   &none                &none                                                   &none   &none  &kp PRINTSCREEN  &kp PAUSE_BREAK      &kp INS     &none    &none
      &none           &kp P          &kp O     &kp I     &kp U   &kp Y                &none                                                   &none   &kp T            &kp R            &kp E        &kp W     &kp Q    &none
@@ -207,7 +207,7 @@
             >;
         };
 
-        layer_Layer__17 {
+        layer_____swap {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -227,7 +227,7 @@
             >;
         };
 
-        layer_Layer__19 {
+        layer_7890swap {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -247,7 +247,7 @@
             >;
         };
 
-        layer_Layer__21 {
+        layer_____swap {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans

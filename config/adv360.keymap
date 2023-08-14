@@ -237,13 +237,13 @@
             >;
         };
 
-        layer_Layer__20 {
+        layer_____ {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans          &trans            &trans    &trans         &trans  &trans            &trans                                                  &trans  &trans            &trans                 &trans             &trans    &trans  &trans
+ &trans          &trans            &trans    &trans         &trans  &trans            &trans                                                  &trans  &trans            &trans                 &trans             &trans    &trans  &trans
+ &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LPAR  &kp LESS_THAN  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RBRC  &trans
+ &trans          &trans            &trans    &trans         &trans  &trans                            &trans                  &trans                  &trans            &trans                 &trans             &trans    &trans  &trans
+ &trans          &trans            &trans    &trans         &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                    &trans                 &trans             &trans    &trans  &trans
             >;
         };
 

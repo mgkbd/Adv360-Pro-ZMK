@@ -23,7 +23,7 @@
     "Layer #17",
     "7890",
     "Layer #19",
-    "Layer #20",
+    ">)]}",
     "Layer #21",
     "Layer #22",
     "Layer #23",
@@ -158,11 +158,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",         "&trans",           "&trans",   "&trans",        "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",           "&trans",                "&trans",            "&trans",   "&trans", "&trans",
+       "&trans",         "&trans",           "&trans",   "&trans",        "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",           "&trans",                "&trans",            "&trans",   "&trans", "&trans",
+       "&trans", "&kp LEFT_BRACE", "&kp LEFT_BRACKET", "&kp LPAR", "&kp LESS_THAN", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&kp GREATER_THAN", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_BRACKET", "&kp RBRC", "&trans",
+       "&trans",         "&trans",           "&trans",   "&trans",        "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans",           "&trans",                "&trans",            "&trans",   "&trans", "&trans",
+       "&trans",         "&trans",           "&trans",   "&trans",        "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans",                "&trans",            "&trans",   "&trans", "&trans"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",

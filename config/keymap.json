@@ -14,8 +14,8 @@
     "Layer #8",
     "Layer #9",
     "仮名",
-    "Layer #11",
-    "Layer #12",
+    "仮名",
+    "仮名",
     "Layer #13",
     "Layer #14",
     "Layer #15",
@@ -98,23 +98,17 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans",           "&trans",               "&trans",          "&trans", "&trans",       "&trans",           "&trans",                                                             "&trans",       "&trans",           "&trans", "&trans", "&trans",         "&trans", "&trans",
-       "&trans",     "&kp INT_KANA", "&kp NON_US_BACKSLASH", "&kp NON_US_HASH",  "&kp Y",       "&trans",           "&trans",                                                             "&trans", "&kp NUMBER_4",            "&kp H",  "&kp R",  "&kp Z",   "&kp NUMBER_8", "&trans",
-       "&trans",     "&kp NUMBER_7",                "&kp Q",           "&kp X",  "&kp T", "&kp NUMBER_3",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp NUMBER_5", "&kp SINGLE_QUOTE",  "&kp P",  "&kp W", "&kp INT_HENKAN", "&trans",
-       "&trans", "&kp LEFT_BRACKET",                "&kp A",           "&kp D",  "&kp G",        "&kp E",                               "&trans",                     "&trans",                     "&kp NUMBER_6",            "&kp B",  "&kp C",  "&kp S",   "&kp NUMBER_9", "&trans",
-       "&trans",           "&trans",               "&trans",          "&trans", "&trans",                           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans", "&trans", "&trans",         "&trans", "&trans"
+         "&none",           "&trans",               "&trans",          "&trans", "&trans",       "&trans",           "&trans",                                                             "&trans",       "&trans",           "&trans", "&trans", "&trans",         "&trans",        "&trans",
+         "&none",     "&kp INT_KANA", "&kp NON_US_BACKSLASH", "&kp NON_US_HASH",  "&kp Y",       "&trans",           "&trans",                                                             "&trans", "&kp NUMBER_4",            "&kp H",  "&kp R",  "&kp Z",   "&kp NUMBER_8",         "&none",
+       "&kp ESC",     "&kp NUMBER_7",                "&kp Q",           "&kp X",  "&kp T", "&kp NUMBER_3",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp NUMBER_5", "&kp SINGLE_QUOTE",  "&kp P",  "&kp W", "&kp INT_HENKAN",     "&kp ENTER",
+       "&kp TAB", "&kp LEFT_BRACKET",                "&kp A",           "&kp D",  "&kp G",        "&kp E",                               "&trans",                     "&trans",                     "&kp NUMBER_6",            "&kp B",  "&kp C",  "&kp S",   "&kp NUMBER_9", "&kp BACKSPACE",
+        "&trans",           "&trans",               "&trans",          "&trans", "&trans",                           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans", "&trans", "&trans",         "&trans",        "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans",     "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans",     "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&kp INT_RO", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans",     "&trans", "&trans", "&trans"
-    ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans",            "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",       "&trans",       "&trans",        "&trans",        "&trans",                "&trans", "&trans",
+       "&trans",            "&trans",  "&kp X",  "&kp G",  "&kp Y",  "&kp W",           "&trans",                                                             "&trans", "&kp NUMBER_1", "&kp NUMBER_2", "&kp BACKSLASH",    "&kp PERIOD",     "&kp INT_KPJPCOMMA", "&trans",
+       "&trans",      "&kp NUMBER_0",  "&kp O",  "&kp J",  "&kp F",  "&kp U",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",    "&kp COMMA",    "&kp EQUAL",     "&kp SLASH", "&kp SEMICOLON",      "&kp INT_MUHENKAN", "&trans",
+       "&trans", "&kp RIGHT_BRACKET",  "&kp L",  "&kp N",  "&kp V",  "&kp I",                               "&trans",                     "&trans",                            "&kp K",    "&kp MINUS",         "&kp M",    "&kp INT_RO", "&kp RIGHT_PARENTHESIS", "&trans",
+       "&trans",            "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                       "&trans",        "&trans",        "&trans",                "&trans", "&trans"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
@@ -139,6 +133,12 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                              "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                      "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",  "&none"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",

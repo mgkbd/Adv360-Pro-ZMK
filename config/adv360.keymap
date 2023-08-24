@@ -61,21 +61,21 @@
 
         layer_SRTP {
             bindings = <
-  &none     &none        &none          &none      &none   &none              &none                                                               &none   &none     &none     &none   &none      &none          &none
-  &none     &none        &none          &none      &none   &none              &none                                                               &none   &none     &none     &none   &none      &none  &kt RIGHT_GUI
-  &none     &kp I        &kp O          &kp A      &kp E   &sl 5            &tog 22  &mo 20  &kp LGUI                  &kp RIGHT_GUI  &mo 20    &tog 24   &kp C     &kp S     &kp T   &kp P      &kp R          &none
-  &none     &kp U      &kp TAB       &kp BSPC  &kp ENTER   &sl 4                                &to 0                          &to 0                      &kp Q     &kp N     &kp K   &kp H      &kp Y          &none
-  &none  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN    &kp END                      &mo 3  &mo 18     &none                          &none  &mo 16  &kp SPACE          &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT          &none
+  &none     &none        &none          &none      &none          &none              &none                                                               &none   &none     &none     &none   &none      &none          &none
+  &none     &none        &none          &none      &none          &none              &none                                                               &none   &none     &none     &none   &kp F      &none  &kt RIGHT_GUI
+  &none     &kp I        &kp O          &kp A      &kp E          &sl 5            &tog 22  &mo 20  &kp LGUI                  &kp RIGHT_GUI  &mo 20    &tog 24   &none     &kp S     &kp T   &kp P      &kp R          &none
+  &none     &kp U        &none          &none  &kp ENTER  &kp BACKSPACE                                &to 0                          &to 0                      &kp X     &kp N     &kp C   &kp J      &kp H          &none
+  &none  &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN    &kp END                             &mo 3  &mo 18     &none                          &none  &mo 16  &kp SPACE          &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT          &none
             >;
         };
 
         layer_ZLDB {
             bindings = <
-  &none   &none   &none    &none       &none   &none             &none                                                   &none   &none   &none   &none   &none   &none   &none
-  &none   &none   &none    &none       &none   &none             &none                                                   &none   &none   &none   &none   &none   &none   &none
-  &none  &trans  &trans   &trans      &trans  &trans             &none   &none   &none                  &trans  &trans   &none   &kp X   &kp Z   &kp D   &kp B   &kp L   &none
-  &none  &trans  &trans  &kp DEL  &kp ESCAPE  &trans                             &none                   &none                   &none   &kp M   &kp G   &kp J   &kp W   &none
-  &none   &none   &none    &none       &none                    &trans  &trans   &none                   &none  &trans  &trans          &trans  &trans  &trans  &trans   &none
+  &none   &none   &none   &none   &none   &none             &none                                                   &none   &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none             &none                                                   &none   &none   &none   &none   &kp V   &none   &none
+  &none  &trans  &trans  &trans  &trans  &trans             &none   &none   &none                  &trans  &trans   &none   &none   &kp Z   &kp D   &kp B   &kp L   &none
+  &none  &trans  &trans   &none   &none  &trans                             &none                   &none                   &none   &kp M   &kp G   &kp J   &kp Y   &none
+  &none   &none   &none   &none   &none                    &trans  &trans   &none                   &none  &trans  &trans          &trans  &trans  &trans  &trans   &none
             >;
         };
 
@@ -83,8 +83,8 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans   &kp T   &kp F  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans   &kp Q   &kp X  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans   &kp X   &kp Z   &none  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans   &kp Q   &kp X   &kp W  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -93,8 +93,8 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans   &kp V  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans   &kp K  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };

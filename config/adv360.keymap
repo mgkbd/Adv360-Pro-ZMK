@@ -51,11 +51,11 @@
 
         layer_Layer__6 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans     &trans     &trans         &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans     &trans     &trans         &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &kp BACKSPACE
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &kp SPACE  &kp ENTER        &kp TAB
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans     &trans     &trans         &trans
+ &trans    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans     &trans     &trans         &trans
+ &trans    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans     &trans     &trans         &trans
+ &trans    &trans     &trans     &trans   &trans  &trans            &trans      &kp LEFT_ALT  &trans                  &trans  &kp LEFT_ALT  &trans  &trans    &trans    &trans     &trans     &trans  &kp BACKSPACE
+ &trans    &trans     &trans     &trans   &trans  &trans                                      &trans                  &trans                        &trans    &trans    &trans  &kp SPACE  &kp ENTER        &kp TAB
+ &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END                     &mo 6  &kp LEFT_CONTROL  &trans                  &trans     &kp RCTRL   &mo 6          &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT         &trans
             >;
         };
 

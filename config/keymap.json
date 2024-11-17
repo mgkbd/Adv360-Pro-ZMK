@@ -38,11 +38,11 @@
   ],
   "layers": [
     [
-       "&tog 31",    "&none",     "&kp INS", "&kp PAUSE_BREAK", "&kp PRINTSCREEN", "&tog 2",           "&tog 10",                                                                                "&tog 10", "&tog 2",    "&none",    "&none",         "&none",           "&none",       "&tog 31",
-         "&none",    "&kp Q",       "&kp W",           "&kp E",           "&kp R",  "&kp T",             "&none",                                                                                  "&none",  "&kp Y",    "&kp U",    "&kp I",         "&kp O",           "&kp P",         "&none",
-       "&kp ESC",    "&kp A",       "&kp S",           "&kp D",           "&kp F",  "&kp G",           "&tog 22", "&kt LCTRL",     "&kt LALT",                     "&kp LGUI", "&kp LEFT_ALT",   "&tog 24",  "&kp H",    "&kp J",    "&kp K",         "&kp L",           "&kp N",     "&kp ENTER",
-       "&kp TAB",    "&kp Z",       "&kp X",           "&kp C",           "&kp V", "&sl 20",                                   "&kt LEFT_GUI",                        "&none",                              "&sl 20",    "&kp B",    "&kp M", "&sk RIGHT_ALT", "&sk RIGHT_SHIFT", "&kp BACKSPACE",
-         "&none", "&kp HOME", "&kp PAGE_UP",   "&kp PAGE_DOWN",         "&kp END",                      "&mo 16",    "&mo 18",        "&mo 1",                        "&mo 1",    "&kp RCTRL", "&kp SPACE",           "&kp LEFT", "&kp DOWN",        "&kp UP",       "&kp RIGHT",    "&kp DELETE"
+       "&tog 31",    "&kp N1",   "&kp N2",       "&kp N3",    "&kp N4", "&kp N5",             "&tog 10",                                                               "&tog 10", "&kp N6",    "&kp N7",       "&kp N8",   "&kp N9",          "&kp N0",       "&tog 31",
+         "&none",     "&kp Q",    "&kp W",        "&kp E",     "&kp R",  "&kp T",               "&none",                                                                 "&none",  "&kp Y",     "&kp U",        "&kp I",    "&kp O",           "&kp P",         "&none",
+       "&kp ESC",     "&kp A",    "&kp S",        "&kp D",     "&kp F",  "&kp G",             "&tog 22",  "&none",  "&none",                      "&none",  "&mo 1",   "&tog 24",  "&kp H",     "&kp J",        "&kp K",    "&kp L",           "&kp N",     "&kp ENTER",
+       "&kp TAB",     "&kp Z",    "&kp X",        "&kp C",     "&kp V", "&sl 20",                                   "&none",                      "&none",                        "&sl 20",     "&kp B",        "&kp M",    "&none",           "&none", "&kp BACKSPACE",
+         "&none", "&kp LSHFT", "&kp RALT", "&kp LEFT_ALT", "&kp LCTRL",                     "&kp SPACE",  "&none",  "&mo 1",                      "&mo 1",  "&none", "&kp SPACE",           "&kp RCTRL", "&kp LEFT_ALT", "&kp RALT", "&kp RIGHT_SHIFT",    "&kp DELETE"
     ], [
            "&none",          "&none",         "&none",    "&none",    "&none",  "&none",               "&none",                                                              "&none",  "&none", "&kp PRINTSCREEN", "&kp PAUSE_BREAK",     "&kp INS",    "&none",   "&none",
            "&none",          "&kp P",         "&kp O",    "&kp I",    "&kp U",  "&kp Y",               "&none",                                                              "&none",  "&kp T",           "&kp R",           "&kp E",       "&kp W",    "&kp Q",   "&none",

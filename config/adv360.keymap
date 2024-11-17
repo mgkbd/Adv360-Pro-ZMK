@@ -40,21 +40,21 @@
 
         default_layer {
             bindings = <
-   &tog 31     &kp N1    &kp N2        &kp N3     &kp N4  &kp N5              &tog 11                                                    &tog 11  &kp N6     &kp N7        &kp N8    &kp N9           &kp N0     &tog 31
-   &kp ESC      &kp Q     &kp W         &kp E      &kp R   &kp T                &none                                                      &none   &kp Y      &kp U         &kp I     &kp O            &kp P  &kp K_MENU
- &kp LSHFT      &kp A     &kp S         &kp D      &kp F   &kp G                &none   &mo 4   &none                   &none   &mo 4      &none   &kp H      &kp J         &kp K     &kp L            &kp N   &kp RSHFT
-  &kp RALT      &kp Z     &kp X         &kp C      &kp V   &none                                &none                   &none                      &none      &kp B         &kp M   &kp TAB    &kp BACKSPACE    &kp RALT
-  &kp LWIN  &kp LSHFT  &kp LWIN  &kp LEFT_ALT  &kp LCTRL                    &kp SPACE   &mo 3   &mo 1                   &mo 1   &mo 3  &kp ENTER          &kp RCTRL  &kp LEFT_ALT  &kp RWIN  &kp RIGHT_SHIFT    &kp RWIN
+   &tog 31     &kp N1    &kp N2        &kp N3     &kp N4   &kp N5              &tog 11                                                    &tog 11         &kp N6     &kp N7        &kp N8    &kp N9     &kp N0     &tog 31
+   &kp ESC      &kp Q     &kp W         &kp E      &kp R    &kp T                &none                                                      &none          &kp Y      &kp U         &kp I     &kp O      &kp P  &kp K_MENU
+ &kp LSHFT      &kp A     &kp S         &kp D      &kp F    &kp G                &none   &mo 4   &none                   &none   &mo 4      &none          &kp H      &kp J         &kp K     &kp L      &kp N   &kp RSHFT
+  &kp RALT      &kp Z     &kp X         &kp C      &kp V  &kp DEL                                &none                   &none                     &kp BACKSPACE      &kp B         &kp M   &kp TAB  &kp ENTER    &kp RALT
+  &kp LEFT  &kp RIGHT  &kp LWIN  &kp LEFT_ALT  &kp LCTRL                     &kp SPACE   &mo 3   &mo 1                   &mo 1   &mo 3  &kp SPACE                 &kp RCTRL  &kp LEFT_ALT  &kp RWIN   &kp DOWN      &kp UP
             >;
         };
 
         layer_Layer__6 {
             bindings = <
- &trans    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans     &trans     &trans         &trans
- &trans    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans     &trans     &trans         &trans
- &trans    &trans     &trans     &trans   &trans  &trans            &trans      &kp LEFT_ALT  &trans                  &trans  &kp LEFT_ALT  &trans  &trans    &trans    &trans     &trans     &trans  &kp BACKSPACE
- &trans    &trans     &trans     &trans   &trans  &trans                                      &trans                  &trans                        &trans    &trans    &trans  &kp SPACE  &kp ENTER        &kp TAB
- &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END                     &mo 3  &kp LEFT_CONTROL  &trans                  &trans     &kp RCTRL   &mo 3          &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT         &trans
+     &trans    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans         &trans     &trans         &trans
+    &kp ESC    &trans     &trans     &trans   &trans  &trans            &trans                                                                  &trans  &trans    &trans    &trans         &trans     &trans         &trans
+    &kp TAB    &trans     &trans     &trans   &trans  &trans            &trans      &kp LEFT_ALT  &trans                  &trans  &kp LEFT_ALT  &trans  &trans    &trans    &trans         &trans     &trans      &kp ENTER
+ &kp DELETE    &trans     &trans     &trans   &trans   &none                                      &trans                  &trans                         &none    &trans    &trans  &sk RIGHT_ALT  &sk RSHFT  &kp BACKSPACE
+     &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END                     &mo 3  &kp LEFT_CONTROL  &trans                  &trans     &kp RCTRL   &mo 3          &kp LEFT  &kp DOWN         &kp UP  &kp RIGHT         &trans
             >;
         };
 
@@ -70,11 +70,11 @@
 
         layer_Punct {
             bindings = <
-   &none            &none             &none          &none       &none   &none             &none                                                   &none   &none      &none      &none              &none         &none   &none
- &kp INS      &kp PERCENT        &kp DOLLAR       &kp HASH      &kp AT   &none             &none                                                   &none   &none   &kp PLUS   &kp STAR           &kp AMPS     &kp EQUAL   &none
-  &trans  &kp EXCLAMATION  &kp SINGLE_QUOTE      &kp COLON  &kp PERIOD   &none             &none   &none   &none                   &none   &none   &none   &none  &kp COMMA   &kp SEMI  &kp DOUBLE_QUOTES  &kp QUESTION  &trans
-  &trans         &kp PIPE         &kp GRAVE  &kp BACKSLASH   &kp UNDER   &none                             &to 0                   &to 0                   &none  &kp MINUS  &kp SLASH          &kp TILDE     &kp CARET  &trans
-  &trans           &trans            &trans         &trans      &trans                    &trans  &trans   &none                   &none  &trans  &trans             &trans     &trans             &trans        &trans  &trans
+   &none            &none             &none          &none       &none   &none             &none                                                   &none   &none      &none      &none              &none         &none            &none
+ &kp INS      &kp PERCENT        &kp DOLLAR       &kp HASH      &kp AT   &none             &none                                                   &none   &none   &kp PLUS   &kp STAR           &kp AMPS     &kp EQUAL  &kp PRINTSCREEN
+  &trans  &kp EXCLAMATION  &kp SINGLE_QUOTE      &kp COLON  &kp PERIOD   &none             &none   &none   &none                   &none   &none   &none   &none  &kp COMMA   &kp SEMI  &kp DOUBLE_QUOTES  &kp QUESTION           &trans
+  &trans         &kp PIPE         &kp GRAVE  &kp BACKSLASH   &kp UNDER   &none                             &to 0                   &to 0                   &none  &kp MINUS  &kp SLASH          &kp TILDE     &kp CARET           &trans
+  &trans           &trans            &trans         &trans      &trans                    &trans  &trans   &none                   &none  &trans  &trans             &trans     &trans             &trans        &trans           &trans
             >;
         };
 

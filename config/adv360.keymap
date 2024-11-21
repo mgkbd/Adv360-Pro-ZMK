@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-     &to 7     &kp N1    &kp N2        &kp N3     &kp N4   &kp N5                &none                                                                      &none         &kp N6    &kp N7    &kp N8   &kp N9     &kp N0       &to 7
-   &kp ESC      &kp Q     &kp W         &kp E      &kp R    &kp T                &none                                                                      &none          &kp Y     &kp U     &kp I    &kp O      &kp P  &kp K_MENU
- &kp LSHFT      &kp A     &kp S         &kp D      &kp F    &kp G                &to 1          &kp LALT   &mo 6                   &mo 6  &kp LEFT_ALT      &to 1          &kp H     &kp J     &kp K    &kp L      &kp N   &kp RSHFT
-  &kp RALT      &kp Z     &kp X         &kp C      &kp V  &kp DEL                                          &mo 5                   &mo 5                           &kp BACKSPACE     &kp B     &kp M  &kp TAB  &kp ENTER    &kp RALT
-  &kp LEFT  &kp RIGHT  &kp LWIN  &kp LEFT_ALT  &kp LCTRL                     &kp SPACE  &kp LEFT_CONTROL   &mo 4                   &mo 4     &kp RCTRL  &kp SPACE                 &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT      &kp UP
+           &to 7    &kp N1         &kp N2     &kp N3   &kp N4   &kp N5            &none                                                                                   &none         &kp N6     &kp N7    &kp N8  &kp N9     &kp N0            &to 7
+       &kp PSCRN     &kp Q          &kp W      &kp E    &kp R    &kp T            &none                                                                                   &none          &kp Y      &kp U     &kp I   &kp O      &kp P       &kp K_MENU
+       &kp LSHFT     &kp A          &kp S      &kp D    &kp F    &kp G            &sl 5          &kp LALT         &mo 6                          &mo 6  &kp LEFT_ALT      &sl 5          &kp H      &kp J     &kp K   &kp L      &kp N        &kp RSHFT
+      &kp ESCAPE     &kp Z          &kp X      &kp C    &kp V  &kp DEL                                            &mo 5                          &mo 5                           &kp BACKSPACE  &kp ENTER   &kp TAB   &kp M      &kp B     &kp CAPSLOCK
+ &kp PAUSE_BREAK  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END                     &mo 2  &kp LEFT_CONTROL  &kp LEFT_WIN                  &kp RIGHT_WIN     &kp RCTRL  &kp SPACE                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp PAUSE_BREAK
             >;
         };
 
@@ -60,11 +60,11 @@
 
         layer_Punct {
             bindings = <
-      &none            &none             &none                 &none       &none   &none            &none                                                   &none   &none             &none                  &none              &none            &none            &none
-    &kp INS      &kp PERCENT        &kp DOLLAR              &kp HASH      &kp AT   &none            &none                                                   &none   &none          &kp PLUS               &kp STAR           &kp AMPS        &kp EQUAL  &kp PRINTSCREEN
- &kp LSHIFT  &kp EXCLAMATION  &kp SINGLE_QUOTE             &kp COLON  &kp PERIOD   &none            &none   &none   &none                   &none   &none   &none   &none         &kp COMMA               &kp SEMI  &kp DOUBLE_QUOTES     &kp QUESTION       &kp RSHIFT
-   &kp RALT         &kp PIPE         &kp GRAVE         &kp BACKSLASH   &kp UNDER   &none                            &none                   &none                   &none         &kp MINUS              &kp SLASH          &kp TILDE        &kp CARET         &kp RALT
-      &none   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp LT                    &none   &none   &none                   &none   &none   &none          &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE            &none
+  &none            &none             &none                 &none       &none   &none            &none                                                   &none   &none             &none                  &none              &none            &none   &none
+ &trans      &kp PERCENT        &kp DOLLAR              &kp HASH      &kp AT   &none            &none                                                   &none   &none          &kp PLUS               &kp STAR           &kp AMPS        &kp EQUAL  &trans
+ &trans  &kp EXCLAMATION  &kp SINGLE_QUOTE             &kp COLON  &kp PERIOD   &none            &none   &none   &none                   &none   &none   &none   &none         &kp COMMA               &kp SEMI  &kp DOUBLE_QUOTES     &kp QUESTION  &trans
+ &trans         &kp PIPE         &kp GRAVE         &kp BACKSLASH   &kp UNDER   &none                            &none                   &none                   &none         &kp MINUS              &kp SLASH          &kp TILDE        &kp CARET  &trans
+ &trans   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp LT                    &none   &none   &none                   &none   &none   &none          &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
             >;
         };
 
